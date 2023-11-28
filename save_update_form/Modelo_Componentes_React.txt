@@ -1,0 +1,28 @@
+################################## Card ###################################################
+<div data-testid="mycard" className="card border-primary" style={{marginTop: '20px'}} >
+  <div className="card-header bg-primary" style={{color: '#fff'}}>
+    Multimeters Crud
+  </div>
+  <div className="card-body">
+
+  </div>
+</div>
+######################################## Link #####################################################
+<Link data-testid="mylink" className="btn btn-dark" style={{marginBottom: '5px'}} to="/">Home</Link>
+######################################## Form #####################################################
+<form data-testid="myform"> </form>
+######################################## Input1 #####################################################
+<div className="form-group">
+  <label htmlFor="###">###</label>
+  <input data-testid="input1" id="###" type="text" style={{marginBottom: '20px'}} className="form-control" placeholder="###"></input>
+</div>
+######################################## Input2 #####################################################
+<div className="form-group">
+  <label htmlFor="###">###</label>
+  <input data-testid="input1" id="###" type="text" style={{marginBottom: '20px'}} className="form-control" placeholder="###"></input>
+</div>
+######################################## Botão #####################################################
+<button data-testid="btnenviar" type="submit" className="btn btn-primary">Enviar</button>
+
+
+
