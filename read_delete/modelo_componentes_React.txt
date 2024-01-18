@@ -1,7 +1,7 @@
 ################################## Card ###################################################
 <div data-testid="mycard" className="card border-primary" style={{marginTop: '20px'}} >
   <div className="card-header bg-primary" style={{color: '#fff'}}>
-    Multimeters Crud
+    ##### Crud
   </div>
   <div className="card-body">
 
@@ -32,7 +32,7 @@
 </table>
 ################################## Botões ###################################################
 <button data-testid="mybtn1" type="button"
-className="btn btn-outline-info">Editar</button>
+className="btn btn-outline-info" style={{margin: '2px'}}>Editar</button>
 
 <button data-testid="mybtn2" type="button"
-className="btn btn-outline-danger">Excluir</button>
+className="btn btn-outline-danger" style={{margin: '2px'}}>Excluir</button>
